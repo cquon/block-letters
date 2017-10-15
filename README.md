@@ -5,14 +5,14 @@ Given an input string, it will output it with cool block letters!
 
 Example:
 ```
-CQUON-M-910W:block-letters cquon$ ./block-letters "aba"
+$ ./block-letters "aba"
  ______  ________  ______
 |  __  ||   __   \|  __  |
 | |__| ||  |__| _/| |__| |
 |  __  ||   __ |_ |  __  |
 | |  | ||  |__|  \| |  | |
 |_|  |_||________/|_|  |_|
-CQUON-M-910W:block-letters cquon$ ./block-letters "abaa"
+$ ./block-letters "abaa"
  ______  ________  ______  ______
 |  __  ||   __   \|  __  ||  __  |
 | |__| ||  |__| _/| |__| || |__| |
