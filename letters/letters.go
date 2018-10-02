@@ -141,4 +141,13 @@ func InitializeBlockLetterMap () {
 	h.Contents[4] = `| |   | |`
 	h.Contents[5] = `|_|   |_|`
 	BlockLetterMap["h"] = h
+
+	i := NewBlockLetter()
+	i.Contents[0] = ` _______ `
+	i.Contents[1] = `|__   __|`
+	i.Contents[2] = `   | |   `
+	i.Contents[3] = `   | |   `
+	i.Contents[4] = ` __| |__ `
+	i.Contents[5] = `|_______|`
+	BlockLetterMap["i"] = i
 }
