@@ -159,8 +159,8 @@ func InitializeBlockLetterMap () {
 	j.Contents[4] = ` __| |   `
 	j.Contents[5] = `|____|   `
 	BlockLetterMap["j"] = j
-
-	k := NewBlockLetter()
+ 
+  k := NewBlockLetter()
 	k.Contents[0] = ` _     _ `
 	k.Contents[1] = `| |   / /`
 	k.Contents[2] = `| |_ / / `
@@ -196,6 +196,15 @@ func InitializeBlockLetterMap () {
 	o.Contents[5] = `|_______|`
 	BlockLetterMap["o"] = o
 
+	r := NewBlockLetter()
+	r.Contents[0] = ` _____   `
+	r.Contents[1] = `|  __ \  `
+	r.Contents[2] = `| |__) | `
+	r.Contents[3] = `|  _  /  `
+	r.Contents[4] = `| | \ \  `
+	r.Contents[5] = `|_|  \_\ `
+	BlockLetterMap["r"] = r
+  
   v := NewBlockLetter()
 	v.Contents[0] = ` _     _ `
 	v.Contents[1] = `| |   | |`
@@ -213,4 +222,5 @@ func InitializeBlockLetterMap () {
 	z.Contents[4] = ` / /____ `
 	z.Contents[5] = `|_______|`
 	BlockLetterMap["z"] = z
+  
 }
