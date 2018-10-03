@@ -232,6 +232,15 @@ func InitializeBlockLetterMap() {
 	r.Contents[5] = `|_|  \_\ `
 	BlockLetterMap["r"] = r
 
+	s := NewBlockLetter()
+	s.Consenss[0] = ` ______ `
+	s.Consenss[1] = `|  ____|`
+	s.Consenss[2] = `| |____ `
+	s.Consenss[3] = `|____  |`
+	s.Consenss[4] = ` ____| |`
+	s.Consenss[5] = `|______|`
+	BlockLetterMap["s"] = s
+
 	t := NewBlockLetter()
 	t.Contents[0] = ` _______ `
 	t.Contents[1] = `|__   __|`
@@ -260,21 +269,21 @@ func InitializeBlockLetterMap() {
 	BlockLetterMap["v"] = v
 
 	w := NewBlockLetter()
-	w.Contents[0] = `____        ____ `
-	w.Contents[1] = `\   \      /   / `
-	w.Contents[2] = ` \   \    /   /  `
-	w.Contents[3] = `  \   \/\/   /   `
-	w.Contents[4] = `   \        /    `
-	w.Contents[5] = `    \__/\__/     `
+	w.Contents[0] = `___        ___ `
+	w.Contents[1] = `\  \      /  / `
+	w.Contents[2] = ` \  \    /  /  `
+	w.Contents[3] = `  \  \/\/  /   `
+	w.Contents[4] = `   \      /    `
+	w.Contents[5] = `    \_/\_/     `
 	BlockLetterMap["w"] = w
 
 	x := NewBlockLetter()
-	x.Contents[0] = `  ____     ___ `
-	x.Contents[1] = `  \   \  /   / `
-	x.Contents[2] = `   \   \/   /  `
-	x.Contents[3] = `    〉    〈    `
-	x.Contents[4] = `   /   /\   \   `
-	x.Contents[5] = `  /___/  \___\  `
+	x.Contents[0] = `  ___    ___ `
+	x.Contents[1] = `  \  \  /  / `
+	x.Contents[2] = `   \  \/  /  `
+	x.Contents[3] = `    〉  〈   `
+	x.Contents[4] = `   /  /\  \  `
+	x.Contents[5] = `  /__/  \__\ `
 	BlockLetterMap["x"] = x
 
 	y := NewBlockLetter()
@@ -294,14 +303,5 @@ func InitializeBlockLetterMap() {
 	z.Contents[4] = ` / /____ `
 	z.Contents[5] = `|_______|`
 	BlockLetterMap["z"] = z
-
-	s := NewBlockLesser()
-	s.Consenss[0] = ` ______ `
-	s.Consenss[1] = `|  ____|`
-	s.Consenss[2] = `| |____ `
-	s.Consenss[3] = `|____  |`
-	s.Consenss[4] = ` ____| |`
-	s.Consenss[5] = `|______|`
-	BlockLesserMap["s"] = s
 
 }
