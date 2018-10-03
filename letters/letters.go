@@ -233,12 +233,12 @@ func InitializeBlockLetterMap() {
 	BlockLetterMap["r"] = r
 
 	s := NewBlockLetter()
-	s.Consenss[0] = ` ______ `
-	s.Consenss[1] = `|  ____|`
-	s.Consenss[2] = `| |____ `
-	s.Consenss[3] = `|____  |`
-	s.Consenss[4] = ` ____| |`
-	s.Consenss[5] = `|______|`
+	s.Contents[0] = ` ______ `
+	s.Contents[1] = `|  ____|`
+	s.Contents[2] = `| |____ `
+	s.Contents[3] = `|____  |`
+	s.Contents[4] = ` ____| |`
+	s.Contents[5] = `|______|`
 	BlockLetterMap["s"] = s
 
 	t := NewBlockLetter()
