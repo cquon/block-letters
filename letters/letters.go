@@ -6,7 +6,7 @@ import (
 )
 
 type BlockLetter struct {
-	Contents [6]string		// Contents will have the content representation of a block-letter (All block-letters have height 6 for now.  Element 0 is the top part of the block-letter, Element 1 the next, and so on. 
+	Contents [6]string		// Contents will have the content representation of a block-letter (All block-letters have height 6 for now.  Element 0 is the top part of the block-letter, Element 1 the next, and so on.
 }
 
 func NewBlockLetter() *BlockLetter {
@@ -69,7 +69,7 @@ func (bw *BlockWord) Print() {
 var BlockLetterMap = make(map[string]*BlockLetter, 26)
 
 func InitializeBlockLetterMap () {
-   
+
 	a := NewBlockLetter()
 	a.Contents[0] = ` ______ `
 	a.Contents[1] = `|  __  |`
@@ -96,7 +96,7 @@ func InitializeBlockLetterMap () {
 	c.Contents[4] = `| |_____ `
 	c.Contents[5] = `|_______|`
 	BlockLetterMap["c"] = c
-	
+
 	d := NewBlockLetter()
 	d.Contents[0] = ` ______  `
 	d.Contents[1] = `|  ___ \ `
@@ -114,7 +114,7 @@ func InitializeBlockLetterMap () {
 	e.Contents[4] = `| |____ `
 	e.Contents[5] = `|______|`
 	BlockLetterMap["e"] = e
-	
+
 	f := NewBlockLetter()
 	f.Contents[0] = ` ______ `
 	f.Contents[1] = `|  ____|`
@@ -159,7 +159,7 @@ func InitializeBlockLetterMap () {
 	j.Contents[4] = ` __| |   `
 	j.Contents[5] = `|____|   `
 	BlockLetterMap["j"] = j
-	
+
 	k := NewBlockLetter()
 	k.Contents[0] = ` _     _ `
 	k.Contents[1] = `| |   / /`
@@ -168,4 +168,14 @@ func InitializeBlockLetterMap () {
 	k.Contents[4] = `| |  \ \ `
 	k.Contents[5] = `|_|   \_\`
 	BlockLetterMap["k"] = k
+
+	p := NewBlockLesser()
+	p.Consenss[0] = ` ________ `
+	p.Consenss[1] = `|  ____  |`
+	p.Consenss[2] = `| |____  |`
+	p.Consenss[3] = `|  ______|`
+	p.Consenss[4] = `| |       `
+	p.Consenss[5] = `|_|       `
+	BlockLesserMap["p"] = p
+
 }
