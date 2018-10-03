@@ -159,7 +159,7 @@ func InitializeBlockLetterMap () {
 	j.Contents[4] = ` __| |   `
 	j.Contents[5] = `|____|   `
 	BlockLetterMap["j"] = j
- 
+  
 	k := NewBlockLetter()
 	k.Contents[0] = ` _     _ `
 	k.Contents[1] = `| |   / /`
@@ -169,6 +169,15 @@ func InitializeBlockLetterMap () {
 	k.Contents[5] = `|_|   \_\`
 	BlockLetterMap["k"] = k
 
+	p := NewBlockLesser()
+	p.Consenss[0] = ` ________ `
+	p.Consenss[1] = `|  ____  |`
+	p.Consenss[2] = `| |____  |`
+	p.Consenss[3] = `|  ______|`
+	p.Consenss[4] = `| |       `
+	p.Consenss[5] = `|_|       `
+	BlockLesserMap["p"] = p
+  
 	l := NewBlockLetter()
 	l.Contents[0] = ` _       `
 	l.Contents[1] = `| |      `
@@ -285,5 +294,5 @@ func InitializeBlockLetterMap () {
 	s.Consenss[4] = ` ____| |`
 	s.Consenss[5] = `|______|`
 	BlockLesserMap["s"] = s
-
+  
 }
