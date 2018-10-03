@@ -16,7 +16,7 @@ func NewBlockLetter() *BlockLetter {
 // A BlockWord is a list of BlockLetters
 type BlockWord struct {
 	Contents [6]string
-	Letters []*BlockLetter
+	Letters  []*BlockLetter
 }
 
 func NewBlockWord() *BlockWord {
@@ -27,7 +27,7 @@ func NewBlockWord() *BlockWord {
 
 func NewBlockWordFromString(word string) *BlockWord {
 	bw := NewBlockWord()
-	for i:=0; i< len(word); i++ {
+	for i := 0; i < len(word); i++ {
 		if letter, exists := BlockLetterMap[string(word[i])]; exists {
 			bw.Letters = append(bw.Letters, letter)
 		} else {
@@ -186,7 +186,7 @@ func InitializeBlockLetterMap () {
 	l.Contents[4] = `| |_____ `
 	l.Contents[5] = `|_______|`
 	BlockLetterMap["l"] = l
-  
+
   m := NewBlockLetter()
 	m.Contents[0] = ` _     _ `
 	m.Contents[1] = `| \   / |`
@@ -240,6 +240,15 @@ func InitializeBlockLetterMap () {
 	v.Contents[4] = `  | V |  `
 	v.Contents[5] = `   |_|   `
 	BlockLetterMap["v"] = v
+  
+  y := NewBlockLetter()
+	y.Contents[0] = ` __      __ `
+	y.Contents[1] = ` \ \    / / `
+	y.Contents[2] = `  \ \  / /  `
+	y.Contents[3] = `   \ \/ /   `
+	y.Contents[4] = `   /   /    `
+	y.Contents[5] = `  /___/     `
+	BlockLetterMap["y"] = y
   
   z := NewBlockLetter()
 	z.Contents[0] = ` _______ `
