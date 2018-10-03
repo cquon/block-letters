@@ -160,7 +160,7 @@ func InitializeBlockLetterMap () {
 	j.Contents[5] = `|____|   `
 	BlockLetterMap["j"] = j
  
-  k := NewBlockLetter()
+	k := NewBlockLetter()
 	k.Contents[0] = ` _     _ `
 	k.Contents[1] = `| |   / /`
 	k.Contents[2] = `| |_ / / `
@@ -169,16 +169,7 @@ func InitializeBlockLetterMap () {
 	k.Contents[5] = `|_|   \_\`
 	BlockLetterMap["k"] = k
 
-	n := NewBlockLetter()
-	n.Contents[0] = ` ___    _`
-	n.Contents[1] = `|   \  | |`
-	n.Contents[2] = `| |\ \ | |`
-	n.Contents[3] = `| | \ \| |`
-	n.Contents[4] = `| |  \   |`
-	n.Contents[5] = `|_|   \__|`
-	BlockLetterMap["n"] = n
-  
-  l := NewBlockLetter()
+	l := NewBlockLetter()
 	l.Contents[0] = ` _       `
 	l.Contents[1] = `| |      `
 	l.Contents[2] = `| |      `
@@ -187,7 +178,7 @@ func InitializeBlockLetterMap () {
 	l.Contents[5] = `|_______|`
 	BlockLetterMap["l"] = l
 
-  m := NewBlockLetter()
+	m := NewBlockLetter()
 	m.Contents[0] = ` _     _ `
 	m.Contents[1] = `| \   / |`
 	m.Contents[2] = `|  \_/  |`
@@ -204,15 +195,15 @@ func InitializeBlockLetterMap () {
 	n.Contents[4] = `| | \ \ |`
 	n.Contents[5] = `|_|  \__|`
 	BlockLetterMap["n"] = n
-
-	u := NewBlockLetter()
-	u.Contents[0] = ` _     _ `
-	u.Contents[1] = `| |   | |`
-	u.Contents[2] = `| |   | |`
-	u.Contents[3] = `| |   | |`
-	u.Contents[4] = `| |___| |`
-	u.Contents[5] = `|_______|`
-	BlockLetterMap["u"] = u
+	
+	o := NewBlockLetter()
+	o.Contents[0] = ` _______ `
+	o.Contents[1] = `|  ___  |`
+	o.Contents[2] = `| |   | |`
+	o.Contents[3] = `| |   | |`
+	o.Contents[4] = `| |___| |`
+	o.Contents[5] = `|_______|`
+	BlockLetterMap["o"] = o
 
 	q := NewBlockLetter()
 	q.Contents[0] = ` _______ `
@@ -223,15 +214,6 @@ func InitializeBlockLetterMap () {
 	q.Contents[5] = `|____\_\|`
 	BlockLetterMap["q"] = q
   
-  o := NewBlockLetter()
-	o.Contents[0] = ` _______ `
-	o.Contents[1] = `|  ___  |`
-	o.Contents[2] = `| |   | |`
-	o.Contents[3] = `| |   | |`
-	o.Contents[4] = `| |___| |`
-	o.Contents[5] = `|_______|`
-	BlockLetterMap["o"] = o
-
 	r := NewBlockLetter()
 	r.Contents[0] = ` _____   `
 	r.Contents[1] = `|  __ \  `
@@ -240,34 +222,7 @@ func InitializeBlockLetterMap () {
 	r.Contents[4] = `| | \ \  `
 	r.Contents[5] = `|_|  \_\ `
 	BlockLetterMap["r"] = r
-  
-  v := NewBlockLetter()
-	v.Contents[0] = ` _     _ `
-	v.Contents[1] = `| |   | |`
-	v.Contents[2] = ` | | | | `
-	v.Contents[3] = ` | | | | `
-	v.Contents[4] = `  | V |  `
-	v.Contents[5] = `   |_|   `
-	BlockLetterMap["v"] = v
-  
-  y := NewBlockLetter()
-	y.Contents[0] = ` __      __ `
-	y.Contents[1] = ` \ \    / / `
-	y.Contents[2] = `  \ \  / /  `
-	y.Contents[3] = `   \ \/ /   `
-	y.Contents[4] = `   /   /    `
-	y.Contents[5] = `  /___/     `
-	BlockLetterMap["y"] = y
-  
-  z := NewBlockLetter()
-	z.Contents[0] = ` _______ `
-	z.Contents[1] = `|_____  |`
-	z.Contents[2] = `     / / `
-	z.Contents[3] = `   / /   `
-	z.Contents[4] = ` / /____ `
-	z.Contents[5] = `|_______|`
-	BlockLetterMap["z"] = z
-  
+	
 	t := NewBlockLetter()
 	t.Contents[0] = ` _______ `
 	t.Contents[1] = `|__   __|`
@@ -276,5 +231,40 @@ func InitializeBlockLetterMap () {
 	t.Contents[4] = `   | |   `
 	t.Contents[5] = `   |_|   `
 	BlockLetterMap["t"] = t
-
+  
+	u := NewBlockLetter()
+	u.Contents[0] = ` _     _ `
+	u.Contents[1] = `| |   | |`
+	u.Contents[2] = `| |   | |`
+	u.Contents[3] = `| |   | |`
+	u.Contents[4] = `| |___| |`
+	u.Contents[5] = `|_______|`
+	BlockLetterMap["u"] = u
+	
+	v := NewBlockLetter()
+	v.Contents[0] = ` _     _ `
+	v.Contents[1] = `| |   | |`
+	v.Contents[2] = ` | | | | `
+	v.Contents[3] = ` | | | | `
+	v.Contents[4] = `  | V |  `
+	v.Contents[5] = `   |_|   `
+	BlockLetterMap["v"] = v
+  
+ 	y := NewBlockLetter()
+	y.Contents[0] = ` __      __ `
+	y.Contents[1] = ` \ \    / / `
+	y.Contents[2] = `  \ \  / /  `
+	y.Contents[3] = `   \ \/ /   `
+	y.Contents[4] = `   /   /    `
+	y.Contents[5] = `  /___/     `
+	BlockLetterMap["y"] = y
+  
+	z := NewBlockLetter()
+	z.Contents[0] = ` _______ `
+	z.Contents[1] = `|_____  |`
+	z.Contents[2] = `     / / `
+	z.Contents[3] = `   / /   `
+	z.Contents[4] = ` / /____ `
+	z.Contents[5] = `|_______|`
+	BlockLetterMap["z"] = z
 }
