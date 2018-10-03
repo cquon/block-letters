@@ -206,12 +206,12 @@ func InitializeBlockLetterMap () {
 	BlockLetterMap["o"] = o
 
 	p := NewBlockLetter()
-	p.Contents[0] = ` ______  `
-	p.Contents[1] = `|   __ \ `
-	p.Contents[2] = `|  |__| |`
-	p.Contents[3] = `|  ____/ `
-	p.Contents[4] = `| |      `
-	p.Contents[5] = `|_|      `
+	p.Contents[0] = ` _____  `
+	p.Contents[1] = `|  __ \ `
+	p.Contents[2] = `| |__| |`
+	p.Contents[3] = `|  ___/ `
+	p.Contents[4] = `| |     `
+	p.Contents[5] = `|_|     `
 	BlockLetterMap["p"] = p
 
 	q := NewBlockLetter()
