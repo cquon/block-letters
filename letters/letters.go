@@ -291,8 +291,8 @@ func InitializeBlockLetterMap() {
 	y.Contents[1] = ` \ \    / / `
 	y.Contents[2] = `  \ \  / /  `
 	y.Contents[3] = `   \ \/ /   `
-	y.Contents[4] = `   /   /    `
-	y.Contents[5] = `  /___/     `
+	y.Contents[4] = `    |  |    `
+	y.Contents[5] = `    |__|    `
 	BlockLetterMap["y"] = y
 
 	z := NewBlockLetter()
